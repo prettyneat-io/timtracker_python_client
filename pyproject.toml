@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "aw-client"
-version = "0.3.1"
+version = "0.3.3"
 description = "Client library for ActivityWatch"
 authors = ["Erik Bjäreholt <erik@bjareho.lt>", "Johan Bjäreholt <johan@bjareho.lt>"]
 license = "MPL-2.0"
@@ -19,7 +19,7 @@ aw-client = "aw_client.cli:main"
 python = "^3.6"
 requests = "^2.22.0"
 persist-queue = "^0.5.0"
-aw-core = {git = "https://github.com/ActivityWatch/aw-core.git"}
+aw-core = {git = "https://github.com/prettyneat-io/timtracker_python_core.git" }
 click = "^7.1.1"
 
 [tool.poetry.dev-dependencies]
